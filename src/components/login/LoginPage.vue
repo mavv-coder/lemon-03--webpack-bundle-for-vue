@@ -27,7 +27,8 @@ export default Vue.extend({
   margin-top: 20px;
 }
 .main-title {
-  color: rgb(233, 152, 65);
+  color: rgb(255, 139, 183);
+  margin-bottom: 10px;
 }
 
 img {

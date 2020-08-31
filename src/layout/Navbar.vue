@@ -46,7 +46,7 @@ ul {
 li:active,
 li:hover {
   color: black;
-  background-color: rgb(191, 144, 144);
+  background-color: rgb(255, 139, 183);
   cursor: pointer;
 }
 </style>
