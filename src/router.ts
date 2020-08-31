@@ -17,11 +17,7 @@ export const baseRoutes: BaseRoutes = {
 const routes: RouteConfig[] = [
   { path: baseRoutes.root, name: "root", redirect: baseRoutes.login },
   { path: baseRoutes.login, name: "login", component: LoginPageComponent },
-  {
-    path: baseRoutes.home,
-    name: "home",
-    component: HomePageComponent,
-  },
+  { path: baseRoutes.home, name: "home", component: HomePageComponent },
 ];
 
 export const router = new Router({

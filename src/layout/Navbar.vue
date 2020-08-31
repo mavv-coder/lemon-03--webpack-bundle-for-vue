@@ -3,11 +3,11 @@
     <v-toolbar color="primary">
       <v-toolbar-title class="title">Vue app</v-toolbar-title>
 
-      <v-icon class="icon">mdi-heart</v-icon>
+      <v-icon class="icon" color="rgb(245, 84, 146)">mdi-heart</v-icon>
 
       <link rel="stylesheet" href="" />
       <ul>
-        <router-link tag="li" class="link" to="/login" exact>login</router-link>
+        <router-link tag="li" class="link" to="/login" exact>Login</router-link>
         <router-link tag="li" class="link" to="/home" exact>Home</router-link>
       </ul>
     </v-toolbar>
@@ -31,6 +31,11 @@ export default Vue.extend({
   margin: 0 10px;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+}
+
 li {
   color: white;
   padding: 8px;
@@ -38,15 +43,9 @@ li {
   border-radius: 5%;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
-
 li:active,
 li:hover {
-  color: black;
-  background-color: rgb(255, 139, 183);
+  background-color: rgb(245, 84, 146);
   cursor: pointer;
 }
 </style>
